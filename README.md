@@ -1,6 +1,6 @@
 # Portfolio-Shop
 
-- An example of Shop website using HTML and BOOTSTRAP and JS.
+- An example of Shop website using HTML , BOOTSTRAP , JS.
 - I made some changes to the bootstrap file ( style.css ) and also added some custom classes to it .
 
 ## Live Preview
