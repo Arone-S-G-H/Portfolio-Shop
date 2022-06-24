@@ -2499,8 +2499,8 @@ textarea.form-control-lg {
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
 }
 .form-check-input:checked {
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  background-color: var(--bs-warning);
+  border-color: var(--bs-warning);
 }
 .form-check-input:checked[type=checkbox] {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
@@ -4752,9 +4752,9 @@ textarea.form-control-lg {
 }
 .page-link:hover {
   z-index: 2;
-  color: var(--bs-pagination-hover-color);
-  background-color: var(--bs-pagination-hover-bg);
-  border-color: var(--bs-pagination-hover-border-color);
+  color: var(--bs-warning) !important;
+  background-color: var(--bs-gray);
+  border-color: var(--bs-gray);
 }
 .page-link:focus {
   z-index: 3;
@@ -4765,9 +4765,10 @@ textarea.form-control-lg {
 }
 .page-link.active, .active > .page-link {
   z-index: 3;
-  color: var(--bs-pagination-active-color);
-  background-color: var(--bs-pagination-active-bg);
-  border-color: var(--bs-pagination-active-border-color);
+  color:var(--bs-warning);
+  background-color: var(--bs-gray-dark);
+  border-color: var(--bs-gray-dark);
+  font-weight: 500;
 }
 .page-link.disabled, .disabled > .page-link {
   color: var(--bs-pagination-disabled-color);
@@ -12005,4 +12006,7 @@ textarea.form-control-lg {
   bottom: 20px;
   right: 20px;
   display: none;
+}
+.min-height {
+  min-height: 300px;
 }
